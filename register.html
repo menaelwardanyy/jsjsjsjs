@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body style="background-color: #f6f8ff;">
+    <div class="container mt-10 pt-5">
+        <div class="row">
+            <div class="md:col-6 ">
+                <img src="img/56f58c5bbae6320e1aa5d36445fd722b.jpg" class="w-75" alt="">
+            </div>
+            <div class="md:col-6">
+                <h2>Create Account</h2>
+                <h4 class="mt-4 mb-7 fg-secondary">Go ahead and create your account.</h4>
+                <h5 id="result" ></h5>
+                <form onsubmit="return validateForm()" action="success.html" class="mt-8">
+                    <input id="user" type="text" class="form-control my-8" placeholder="user name">
+                    <input id="email" type="email" class="form-control my-8" placeholder="Enter your email">
+                    <input id="pass" type="password" class="form-control my-8" placeholder="Enter your password">
+                    <input id="confirm" type="password" class="form-control my-8" placeholder="Confirm your password">
+                    <input type="submit" class="btn-solid theme-primary d-block w-100" value="create new account">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html> <!-- <p class="mt-4">Already have an account? <a href="index.html">Sign in</a></p> -->
